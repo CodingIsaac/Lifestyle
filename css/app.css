@@ -1,0 +1,132 @@
+body{
+    background-color: olive !important;
+    margin: 0px;
+}
+
+#logo-img{
+    width: 100px;
+    padding-right: 15px;
+}
+
+.brand{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: tomato;
+}
+
+
+ul.navbar-nav {
+    font-size: 1.1rem !important;
+}
+
+
+.topbar{
+    background-color: black;
+    height: 30;
+    color: white;
+    padding: 0px 20px;
+}
+
+.topbar ul{
+    margin: 0;
+}
+
+.topbar li{
+    display: inline-block;
+    padding: 6px;
+    /* background-color: tomato; */
+}
+
+.topbar li a{
+    color: white;
+}
+
+.fright{
+    float: right;
+}
+
+.content{
+    color: white;
+    padding-top: 8%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.category{
+    margin: 50px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.category img{
+    width: 100%;
+}
+
+.items{
+    background-color: wheat;
+}
+
+.details{
+    padding: 10px;
+}
+
+#header{
+    background: url("../Images/GETUP02.jpg") center center / cover no-repeat;
+    height: 70vh;
+}
+
+@media (max-width: 768px){
+    .category{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .container{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 375px){
+    .category{
+        grid-template-columns: 1fr;
+    }
+
+    .container{
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px){
+    .topbar{
+        display: none;
+    }
+
+    .container{
+        width: 100%;
+    }
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.footer-widget{
+    padding: 40px;
+    background: rgb(36, 35, 35);
+}
+
+.widget-lists{
+    height: 100px;
+}
+
+.copyright p{
+    margin-bottom: 0px !important;
+}
